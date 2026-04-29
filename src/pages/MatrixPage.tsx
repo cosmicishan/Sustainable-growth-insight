@@ -13,7 +13,7 @@ import { featureImportanceData, correlationData } from "@/data/energyData";
 
 const chartTooltipStyle = { background: "hsl(220,18%,10%)", border: "1px solid hsl(220,14%,18%)", borderRadius: "8px", color: "hsl(210,20%,92%)", fontSize: 12 };
 
-const API_BASE_URL = "https://model-api-sigma.vercel.app";
+const API_BASE_URL = "https://model-api-seven.vercel.app";
 
 interface PredictionResult {
   state: string;
